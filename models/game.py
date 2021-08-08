@@ -8,12 +8,3 @@ play5 = Player("Hannah", "Paper")
 play6 = Player("Hannah", "Scissors")
 games = [play1, play2, play3, play4, play5, play6]
 
-
-# def player_choice(player):
-#     the_choice = None
-#     for player in games:
-#         if player.name == player_name:
-#             the_choice = player
-#             break
-
-#     player.append(the_choice)
