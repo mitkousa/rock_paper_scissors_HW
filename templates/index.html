@@ -5,30 +5,22 @@
 
 <h2>Please select a player and make a choice:</h2>
 
+<form action="/Rock" method="get">
+    <label for="name"><h3>Select a player:</h3></label>
+    <select name="name" id="name">
+          <option value="Colin">Colin</option>
+          <option value="Hannah">Hannah</option>
+  </select>
 
-<div>
-    <p>
-<label for="name"><h3>Select a player:</h3></label>
-  <select name="name" id="name">
-        <option value="Colin">Colin</option>
-        <option value="Hannah">Hannah</option>
-</select>
-</p>
-</div> 
-
-
-
-<div>
-    <p>
-    <label for="choice"><h3>Their choice:</h3></label>
+  <label for="choice"><h3>Their choice:</h3></label>
     <select choice="choice" id="choice">
         <option value="Rock">Rock</option>
         <option value="Paper">Paper</option>
         <option value="Scissors">Scissors</option>
     </select>
-    </p>
-</div>
-<input type="submit" value="SUBMIT">
+    <input type="submit" value="SUBMIT">
+
+
 
 
 
